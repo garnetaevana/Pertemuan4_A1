@@ -1,0 +1,10 @@
+umur=int(input())
+dewasa = "Anda dewasa"
+remaja = "Anda remaja"
+anak = "Anda anak-anak"
+if umur>=18:
+    print ("Anda dewasa")
+if umur >=13 and umur <18:
+    print("Anda remaja")
+if umur <13:
+    print("Anda anak-anak")
